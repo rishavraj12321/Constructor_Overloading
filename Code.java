@@ -29,13 +29,16 @@ public class Box {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Box A=new Box();
-		System.out.println(A.Volume());
+		System.out.print(A.Volume());
+		System.out.println(""));
 		
 		Box B=new Box(8.0,7.0,2.0);
-		System.out.println(B.Volume());
+		System.out.print(B.Volume());
+		System.out.println("");
 		
 		Box C=new Box(3.0);
-		System.out.println(C.Volume());
+		System.out.print(C.Volume());
+		System.out.println("");
 	}
 		
 }
